@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "John Anderson",
+    "designation": "CEO, BrightTech",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "message": "Their design team exceeded our expectations. Our website looks modern and performs flawlessly!"
+  },
+  {
+    "id": 2,
+    "name": "Emily Carter",
+    "designation": "Marketing Director, Nova Agency",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "message": "I’m really impressed by their professionalism and creativity. Highly recommend their services!"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "designation": "Product Manager, PixelPro",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "message": "Excellent communication and top-notch results. They turned our ideas into reality beautifully."
+  },
+  {
+    "id": 4,
+    "name": "Sophia Johnson",
+    "designation": "Founder, Bloom Studio",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "message": "They delivered exactly what I envisioned for my brand. Absolutely loved the creative process!"
+  },
+  {
+    "id": 5,
+    "name": "Daniel Lee",
+    "designation": "CTO, SmartWave",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "message": "The team was super responsive and skilled. We got a fantastic dashboard UI ahead of schedule."
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martin",
+    "designation": "Creative Head, VisionArt",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "message": "They have a keen eye for detail and design. Every part of the UI feels intuitive and elegant."
+  },
+  {
+    "id": 7,
+    "name": "Liam Walker",
+    "designation": "CEO, Buildify",
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "message": "Working with them was smooth and enjoyable. They know how to bring brands to life!"
+  },
+  {
+    "id": 8,
+    "name": "Ava Scott",
+    "designation": "Marketing Lead, Trendify",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "message": "Our project was delivered perfectly on time. Loved the consistency and modern design."
+  },
+  {
+    "id": 9,
+    "name": "Noah Davis",
+    "designation": "Owner, FreshMarket",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "message": "The e-commerce website they built helped us increase conversions by 40%. Amazing team!"
+  },
+  {
+    "id": 10,
+    "name": "Isabella Wilson",
+    "designation": "UX Designer, Flow Studio",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "message": "Fantastic user experience! They truly understand how users interact with digital products."
+  },
+  {
+    "id": 11,
+    "name": "James Moore",
+    "designation": "Project Manager, InnovateX",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg",
+    "message": "Very satisfied with the final outcome. Professional, creative, and punctual."
+  },
+  {
+    "id": 12,
+    "name": "Charlotte Taylor",
+    "designation": "Business Owner, EcoBloom",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "message": "They built a strong digital presence for us. I keep getting compliments about the site!"
+  },
+  {
+    "id": 13,
+    "name": "Ethan White",
+    "designation": "CTO, CodeNexus",
+    "image": "https://randomuser.me/api/portraits/men/13.jpg",
+    "message": "Superb quality work. Their team handled complex development with ease."
+  },
+  {
+    "id": 14,
+    "name": "Amelia Hall",
+    "designation": "Brand Strategist, Luxe Media",
+    "image": "https://randomuser.me/api/portraits/women/14.jpg",
+    "message": "Their designs communicate emotion beautifully. It truly elevated our brand."
+  },
+  {
+    "id": 15,
+    "name": "Henry Clark",
+    "designation": "Director, AlphaSoft",
+    "image": "https://randomuser.me/api/portraits/men/15.jpg",
+    "message": "I’ve worked with many agencies — this one stands out for quality and reliability."
+  },
+  {
+    "id": 16,
+    "name": "Mia Lewis",
+    "designation": "Marketing Head, BloomSpace",
+    "image": "https://randomuser.me/api/portraits/women/16.jpg",
+    "message": "Everything from concept to delivery went smoothly. Great communication and creativity!"
+  },
+  {
+    "id": 17,
+    "name": "Logan Walker",
+    "designation": "Product Owner, Digitify",
+    "image": "https://randomuser.me/api/portraits/men/17.jpg",
+    "message": "Their UI/UX approach improved our conversion rate instantly. Highly skilled team!"
+  },
+  {
+    "id": 18,
+    "name": "Harper Young",
+    "designation": "CEO, Spark Studio",
+    "image": "https://randomuser.me/api/portraits/women/18.jpg",
+    "message": "They really listen and adapt quickly. You feel like you’re part of the same creative family."
+  },
+  {
+    "id": 19,
+    "name": "Alexander King",
+    "designation": "Founder, WebX",
+    "image": "https://randomuser.me/api/portraits/men/19.jpg",
+    "message": "The code quality and design both were outstanding. Couldn’t have asked for more!"
+  },
+  {
+    "id": 20,
+    "name": "Ella Baker",
+    "designation": "Social Media Manager, NextGen",
+    "image": "https://randomuser.me/api/portraits/women/20.jpg",
+    "message": "They gave our online identity a fresh new look. Our followers love it!"
+  },
+  {
+    "id": 21,
+    "name": "William Carter",
+    "designation": "Developer, DevPoint",
+    "image": "https://randomuser.me/api/portraits/men/21.jpg",
+    "message": "Quick turnaround and bug-free code. Their attention to detail is impressive."
+  },
+  {
+    "id": 22,
+    "name": "Chloe Rivera",
+    "designation": "UI Designer, Webly",
+    "image": "https://randomuser.me/api/portraits/women/22.jpg",
+    "message": "The new website looks amazing. Every section is beautifully crafted."
+  },
+  {
+    "id": 23,
+    "name": "Benjamin Roberts",
+    "designation": "Manager, CloudEdge",
+    "image": "https://randomuser.me/api/portraits/men/23.jpg",
+    "message": "They went above and beyond to ensure our satisfaction. Highly recommended!"
+  },
+  {
+    "id": 24,
+    "name": "Grace Evans",
+    "designation": "Freelancer",
+    "image": "https://randomuser.me/api/portraits/women/24.jpg",
+    "message": "Loved how smoothly the entire collaboration went. Friendly and very creative team."
+  },
+  {
+    "id": 25,
+    "name": "Sebastian Collins",
+    "designation": "CEO, Pixelify",
+    "image": "https://randomuser.me/api/portraits/men/25.jpg",
+    "message": "One of the best creative teams I’ve ever worked with. Fantastic output!"
+  },
+  {
+    "id": 26,
+    "name": "Victoria Adams",
+    "designation": "Designer, NovaLab",
+    "image": "https://randomuser.me/api/portraits/women/26.jpg",
+    "message": "They deliver on time and with style. Always consistent and professional."
+  },
+  {
+    "id": 27,
+    "name": "Matthew Turner",
+    "designation": "Founder, WebFusion",
+    "image": "https://randomuser.me/api/portraits/men/27.jpg",
+    "message": "The design exceeded expectations. Modern, responsive, and fast."
+  },
+  {
+    "id": 28,
+    "name": "Scarlett Green",
+    "designation": "Marketing Expert, BrandEdge",
+    "image": "https://randomuser.me/api/portraits/women/28.jpg",
+    "message": "They understood our vision perfectly. Our website traffic has doubled!"
+  },
+  {
+    "id": 29,
+    "name": "Jackson Hughes",
+    "designation": "CTO, CloudTech",
+    "image": "https://randomuser.me/api/portraits/men/29.jpg",
+    "message": "Brilliant execution. Their technical expertise is top-class."
+  },
+  {
+    "id": 30,
+    "name": "Avery Morgan",
+    "designation": "Entrepreneur",
+    "image": "https://randomuser.me/api/portraits/women/30.jpg",
+    "message": "Very happy with the design and responsiveness of the final product."
+  },
+  {
+    "id": 31,
+    "name": "Jack Foster",
+    "designation": "Owner, CreativePoint",
+    "image": "https://randomuser.me/api/portraits/men/31.jpg",
+    "message": "They made the whole process effortless. Great collaboration!"
+  },
+  {
+    "id": 32,
+    "name": "Hannah Bell",
+    "designation": "Blogger",
+    "image": "https://randomuser.me/api/portraits/women/32.jpg",
+    "message": "Beautiful design and smooth experience. They nailed my blog revamp."
+  },
+  {
+    "id": 33,
+    "name": "Lucas Perez",
+    "designation": "Manager, AppLab",
+    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "message": "Creative, fast, and reliable. The app UI looks stunning."
+  },
+  {
+    "id": 34,
+    "name": "Aria Mitchell",
+    "designation": "Brand Manager, Glow Media",
+    "image": "https://randomuser.me/api/portraits/women/34.jpg",
+    "message": "Excellent branding work! They made our visuals consistent and elegant."
+  },
+  {
+    "id": 35,
+    "name": "Nathan Reed",
+    "designation": "Developer, CodeWorks",
+    "image": "https://randomuser.me/api/portraits/men/35.jpg",
+    "message": "The code quality was superb — pixel-perfect and optimized."
+  },
+  {
+    "id": 36,
+    "name": "Luna Rivera",
+    "designation": "Illustrator",
+    "image": "https://randomuser.me/api/portraits/women/36.jpg",
+    "message": "Absolutely loved their creativity. They captured my personality through design."
+  },
+  {
+    "id": 37,
+    "name": "Christopher Lopez",
+    "designation": "Project Lead, NeoTech",
+    "image": "https://randomuser.me/api/portraits/men/37.jpg",
+    "message": "Smooth workflow, effective communication, and beautiful outcome."
+  },
+  {
+    "id": 38,
+    "name": "Penelope Brooks",
+    "designation": "Business Analyst, CoreWave",
+    "image": "https://randomuser.me/api/portraits/women/38.jpg",
+    "message": "They’re not just developers — they’re true problem solvers!"
+  },
+  {
+    "id": 39,
+    "name": "Owen Jenkins",
+    "designation": "Product Designer, UIX Studio",
+    "image": "https://randomuser.me/api/portraits/men/39.jpg",
+    "message": "Fantastic eye for detail and layout. Every pixel is in place!"
+  },
+  {
+    "id": 40,
+    "name": "Layla Sanders",
+    "designation": "Art Director, Designify",
+    "image": "https://randomuser.me/api/portraits/women/40.jpg",
+    "message": "Their creativity blew us away. It’s rare to find such passionate designers."
+  },
+  {
+    "id": 41,
+    "name": "Elijah Gray",
+    "designation": "Startup Founder",
+    "image": "https://randomuser.me/api/portraits/men/41.jpg",
+    "message": "They helped us launch fast with a stunning brand identity."
+  },
+  {
+    "id": 42,
+    "name": "Zoey Long",
+    "designation": "UX Researcher, FlowSoft",
+    "image": "https://randomuser.me/api/portraits/women/42.jpg",
+    "message": "They really understand user needs. Every design decision made sense."
+  },
+  {
+    "id": 43,
+    "name": "Grayson Wood",
+    "designation": "Engineer, SoftPoint",
+    "image": "https://randomuser.me/api/portraits/men/43.jpg",
+    "message": "We loved working with them. High-quality code and clean UI."
+  },
+  {
+    "id": 44,
+    "name": "Eleanor Hughes",
+    "designation": "Creative Director, Beam Media",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "message": "They brought our brand vision to life beautifully. Highly recommended!"
+  },
+  {
+    "id": 45,
+    "name": "Leo Kelly",
+    "designation": "Consultant, BrightHub",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "message": "Super organized and very professional team. Would definitely hire again."
+  },
+  {
+    "id": 46,
+    "name": "Stella Ward",
+    "designation": "Marketing Executive, Glowify",
+    "image": "https://randomuser.me/api/portraits/women/46.jpg",
+    "message": "They turned our campaign visuals into something extraordinary!"
+  },
+  {
+    "id": 47,
+    "name": "Isaac Bennett",
+    "designation": "Developer, CodeCraft",
+    "image": "https://randomuser.me/api/portraits/men/47.jpg",
+    "message": "Excellent coding standards. Everything is scalable and well-structured."
+  },
+  {
+    "id": 48,
+    "name": "Addison Hayes",
+    "designation": "Entrepreneur",
+    "image": "https://randomuser.me/api/portraits/women/48.jpg",
+    "message": "They’re creative, kind, and truly care about your goals."
+  },
+  {
+    "id": 49,
+    "name": "Julian Foster",
+    "designation": "Manager, PixelEdge",
+    "image": "https://randomuser.me/api/portraits/men/49.jpg",
+    "message": "Couldn’t have asked for a better experience. Their designs speak for themselves!"
+  },
+  {
+    "id": 50,
+    "name": "Nora Hill",
+    "designation": "Designer, StudioOne",
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "message": "Absolutely stunning visuals. I’d recommend them to anyone who values design excellence."
+  }
+]

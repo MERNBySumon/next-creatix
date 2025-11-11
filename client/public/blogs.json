@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "How to Build a Stunning Portfolio Website",
+    "image": "https://picsum.photos/seed/blog1/800/500",
+    "category": "Web Design",
+    "author": "John Anderson",
+    "date": "2025-01-12",
+    "excerpt": "Learn how to design a modern and responsive portfolio website using React and Tailwind CSS."
+  },
+  {
+    "id": 2,
+    "title": "10 Tips for Better UI/UX Design",
+    "image": "https://picsum.photos/seed/blog2/800/500",
+    "category": "UI/UX",
+    "author": "Emily Carter",
+    "date": "2025-02-05",
+    "excerpt": "Discover the essential principles to create user-friendly and visually appealing interfaces."
+  },
+  {
+    "id": 3,
+    "title": "Top 5 Web Development Frameworks in 2025",
+    "image": "https://picsum.photos/seed/blog3/800/500",
+    "category": "Web Development",
+    "author": "Michael Brown",
+    "date": "2025-02-15",
+    "excerpt": "Explore the most popular frameworks like React, Next.js, and Vue that dominate web development."
+  },
+  {
+    "id": 4,
+    "title": "How Branding Shapes User Perception",
+    "image": "https://picsum.photos/seed/blog4/800/500",
+    "category": "Branding",
+    "author": "Sophia Johnson",
+    "date": "2025-03-01",
+    "excerpt": "A well-defined brand identity helps create trust and recognition among customers — here’s how."
+  },
+  {
+    "id": 5,
+    "title": "Why Responsive Design Matters More Than Ever",
+    "image": "https://picsum.photos/seed/blog5/800/500",
+    "category": "Web Design",
+    "author": "Daniel Lee",
+    "date": "2025-03-12",
+    "excerpt": "With the growing use of mobile devices, responsive design has become a key to success."
+  },
+  {
+    "id": 6,
+    "title": "The Future of Artificial Intelligence in Web Apps",
+    "image": "https://picsum.photos/seed/blog6/800/500",
+    "category": "Technology",
+    "author": "Olivia Martin",
+    "date": "2025-03-25",
+    "excerpt": "AI is revolutionizing how users interact with digital platforms — here’s what to expect next."
+  },
+  {
+    "id": 7,
+    "title": "Minimalist Design: Less is More",
+    "image": "https://picsum.photos/seed/blog7/800/500",
+    "category": "Design",
+    "author": "Liam Walker",
+    "date": "2025-04-05",
+    "excerpt": "Minimalist design creates a clean, focused experience that enhances usability and aesthetics."
+  },
+  {
+    "id": 8,
+    "title": "Building Scalable Web Apps with Next.js",
+    "image": "https://picsum.photos/seed/blog8/800/500",
+    "category": "Web Development",
+    "author": "Ava Scott",
+    "date": "2025-04-10",
+    "excerpt": "Next.js offers server-side rendering and scalability — perfect for modern web apps."
+  },
+  {
+    "id": 9,
+    "title": "Mastering Color Psychology in Design",
+    "image": "https://picsum.photos/seed/blog9/800/500",
+    "category": "Branding",
+    "author": "Noah Davis",
+    "date": "2025-04-20",
+    "excerpt": "Colors influence emotions and decisions. Learn how to use them effectively in branding."
+  },
+  {
+    "id": 10,
+    "title": "Top 10 Must-Have Tools for Developers",
+    "image": "https://picsum.photos/seed/blog10/800/500",
+    "category": "Technology",
+    "author": "Isabella Wilson",
+    "date": "2025-04-25",
+    "excerpt": "From VS Code extensions to productivity apps — here are tools that developers love."
+  },
+  {
+    "id": 11,
+    "title": "Understanding the Basics of SEO in 2025",
+    "image": "https://picsum.photos/seed/blog11/800/500",
+    "category": "Marketing",
+    "author": "James Moore",
+    "date": "2025-05-05",
+    "excerpt": "SEO strategies continue to evolve. Learn how to keep your content ranking high."
+  },
+  {
+    "id": 12,
+    "title": "Typography Trends That Will Dominate 2025",
+    "image": "https://picsum.photos/seed/blog12/800/500",
+    "category": "Design",
+    "author": "Charlotte Taylor",
+    "date": "2025-05-08",
+    "excerpt": "Typography plays a crucial role in visual communication. Explore the latest font trends."
+  },
+  {
+    "id": 13,
+    "title": "Why Dark Mode Is Here to Stay",
+    "image": "https://picsum.photos/seed/blog13/800/500",
+    "category": "UI/UX",
+    "author": "Ethan White",
+    "date": "2025-05-15",
+    "excerpt": "Dark mode enhances readability and reduces eye strain — see how to design it effectively."
+  },
+  {
+    "id": 14,
+    "title": "How to Create a Brand Style Guide",
+    "image": "https://picsum.photos/seed/blog14/800/500",
+    "category": "Branding",
+    "author": "Amelia Hall",
+    "date": "2025-05-20",
+    "excerpt": "A style guide ensures consistency across your brand’s visual and verbal identity."
+  },
+  {
+    "id": 15,
+    "title": "Boosting Website Speed for Better UX",
+    "image": "https://picsum.photos/seed/blog15/800/500",
+    "category": "Web Performance",
+    "author": "Henry Clark",
+    "date": "2025-06-01",
+    "excerpt": "Learn practical tips to make your site faster, improving user satisfaction and SEO."
+  },
+  {
+    "id": 16,
+    "title": "Creating an Engaging Landing Page That Converts",
+    "image": "https://picsum.photos/seed/blog16/800/500",
+    "category": "Marketing",
+    "author": "Mia Lewis",
+    "date": "2025-06-10",
+    "excerpt": "The secret formula for a high-converting landing page that grabs attention instantly."
+  },
+  {
+    "id": 17,
+    "title": "How to Use Animation in UI Design",
+    "image": "https://picsum.photos/seed/blog17/800/500",
+    "category": "UI/UX",
+    "author": "Logan Walker",
+    "date": "2025-06-15",
+    "excerpt": "Micro-interactions and animations can make your interface more intuitive and lively."
+  },
+  {
+    "id": 18,
+    "title": "What Makes a Great Logo Design?",
+    "image": "https://picsum.photos/seed/blog18/800/500",
+    "category": "Branding",
+    "author": "Harper Young",
+    "date": "2025-06-22",
+    "excerpt": "A powerful logo is simple, memorable, and timeless. Here’s how to craft one."
+  },
+  {
+    "id": 19,
+    "title": "How to Design for Accessibility",
+    "image": "https://picsum.photos/seed/blog19/800/500",
+    "category": "UI/UX",
+    "author": "Alexander King",
+    "date": "2025-06-25",
+    "excerpt": "Designing for everyone makes your app more inclusive and successful."
+  },
+  {
+    "id": 20,
+    "title": "Exploring the Power of Tailwind CSS",
+    "image": "https://picsum.photos/seed/blog20/800/500",
+    "category": "Web Development",
+    "author": "Ella Baker",
+    "date": "2025-07-01",
+    "excerpt": "Tailwind CSS gives you utility-first design freedom and speeds up workflow dramatically."
+  }
+]
