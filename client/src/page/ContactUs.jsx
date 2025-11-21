@@ -11,6 +11,7 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const ContactUs = () => {
   const handleSubmit = (e) => {
@@ -18,10 +19,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_90dh76g", // EmailJS থেকে কপি করো
-        "template_4es7xmc", // EmailJS থেকে কপি করো
+        "service_lvn3crp", // EmailJS থেকে কপি করো
+        "template_j3mhbu8", // EmailJS থেকে কপি করো
         e.target, // ফর্ম ডাটা
-        "4uaGqoyQUMrdUSvN-" // EmailJS থেকে কপি করো
+        "wUM7-WvXcLbPb-r6l" // EmailJS থেকে কপি করোwUM7-WvXcLbPb-r6l
       )
       .then(
         (result) => {
@@ -82,7 +83,7 @@ export const ContactUs = () => {
 
             <button
               type="submit"
-              className="w-full bg-[#ff9000] hover:bg-[#e67c00] text-white py-3 px-4 rounded-md text-lg font-semibold transition"
+              className="w-full text-white bg-[#ff9000] hover:text-black py-3 px-4 rounded-md text-lg font-semibold transition"
             >
               Send Message
             </button>
@@ -95,14 +96,15 @@ export const ContactUs = () => {
 
           <div className="space-y-2  mb-6">
             <p>
-              <span className="font-semibold">Call Us:</span> +880 1760793457
+              <span className="font-semibold">Call Us:</span> +880 1300052218
             </p>
             <p>
               <span className="font-semibold">Email Us:</span>{" "}
-              info@nextcreatix.com
+              nextcreatix@gmail.com
             </p>
             <p>
-              <span className="font-semibold">Find our location:</span>
+              <span className="font-semibold">Find our location: </span>
+              Baptah Mahogon Pol, Bhola Sadar, Bhola
             </p>
           </div>
 
@@ -119,14 +121,26 @@ export const ContactUs = () => {
             ></iframe>
           </div>
 
-          <p className=" mb-4">Baptah Mahogon Pol, Bhola Sadar, Bhola</p>
+          {/* <p className=" mb-4">Baptah Mahogon Pol, Bhola Sadar, Bhola</p> */}
 
           <div className="flex gap-5 text-2xl text-[#ff9000]">
-            <FaFacebook className="hover:text-[#1877F2] transition" />
-            <FaInstagram className="hover:text-[#E1306C] transition" />
-            <FaLinkedin className="hover:text-[#0A66C2] transition" />
-            <FaYoutube className="hover:text-[#FF0000] transition" />
-            <FaTwitter className="hover:text-[#1DA1F2] transition" />
+            {/* </Link>
+            <Link to={''}></Link> */}
+            <Link to={"https://www.facebook.com/nextcreatix"}>
+              <FaFacebook className="hover:text-[#1877F2] transition" />
+            </Link>
+            <Link to={"https://www.instagram.com/nextcreatix/#"}>
+              <FaInstagram className="hover:text-[#E1306C] transition" />
+            </Link>
+            <Link to={""}>
+              <FaLinkedin className="hover:text-[#0A66C2] transition" />
+            </Link>
+            <Link to={"https://www.youtube.com/@nextcreatix"}>
+              <FaYoutube className="hover:text-[#FF0000] transition" />
+            </Link>
+            <Link to={"https://x.com/nextcreatix"}>
+              <FaTwitter className="hover:text-[#1DA1F2] transition" />
+            </Link>
           </div>
         </div>
       </div>

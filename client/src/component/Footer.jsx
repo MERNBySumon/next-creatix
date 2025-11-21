@@ -6,6 +6,8 @@ import {
   FaYoutube,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import logo from "../assets/image/favicon.png";
 
 const Footer = () => {
   return (
@@ -14,10 +16,11 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 border-b border-gray-700 pb-10">
         {/* Logo and About */}
         <div>
-          <h2 className="text-2xl font-bold text-[#ff9000] mb-2">
+          {/* <h2 className="text-2xl font-bold text-[#ff9000] mb-2">
             NEXT CREATIX
-          </h2>
-          <p className="text-sm ">Togins Goesine</p>
+          </h2> */}
+          {/* <p className="text-sm ">Bhola 8300</p> */}
+          <img src={logo} alt="foooter logo" className="w-[200px]" />
         </div>
 
         {/* Quick Links */}
@@ -26,12 +29,24 @@ const Footer = () => {
             Quick Links
           </h3>
           <ul className="space-y-2text-sm">
-            <li>Next Services</li>
-            <li>Notorem dilutucne</li>
-            <li>Cuote Affairs</li>
-            <li>Rommy cinpromktem</li>
-            <li>Neeney Nett Coonege</li>
-            <li>Urotskit</li>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
+            <Link to={"/aboutus"}>
+              <li>About Us</li>
+            </Link>
+            <Link to={"/services"}>
+              <li>Service</li>
+            </Link>
+            <Link to={"/portfolio"}>
+              <li>Portfolio</li>
+            </Link>
+            <Link to={"/tastimonials"}>
+              <li>Tastimonials</li>
+            </Link>
+            <Link to={"/bloge"}>
+              <li>Blog</li>
+            </Link>
           </ul>
         </div>
 
@@ -41,10 +56,10 @@ const Footer = () => {
             Our Time
           </h3>
           <ul className="space-y-2  text-sm">
-            <li>Accommodation Store</li>
-            <li>Tel: 239 7232</li>
-            <li>Email: creatixsite.com</li>
-            <li>Inmloie Hum</li>
+            <li>IT Agency Bangladesh </li>
+            <li>Open-Close: 9.00 am -11.00 pm</li>
+            <li>What'sapp: +880 177869980</li>
+            <li>Work Email: nextcreatix@gmail.com</li>
           </ul>
         </div>
 
@@ -54,25 +69,42 @@ const Footer = () => {
             Contact Us
           </h3>
           <ul className="space-y-2  text-sm mb-5">
-            <li>Full Address</li>
-            <li>Phone: +90 123 9686 60</li>
-            <li>Working: 10:30–11:05am</li>
+            {/* <li>Full Address: Bapta Bhola 8300</li>
+            <li className="ml-12">Bhola Barishal Bangladesh</li> */}
+            <li>
+              Phone: +880 177869980 <br />
+            </li>
+            <li className="ml-12"> +880 1300052218 </li>
+            <li>Email: nextcreatix@gmail.com</li>
+            <li className="ml-10">info@nextcreatix.com</li>
           </ul>
 
           <div className="flex items-center gap-4 text-xl">
-            <a href="#" className="hover:text-[#ff9000] transition">
+            <a
+              href="https://www.facebook.com/nextcreatix"
+              className="hover:text-[#ff9000] transition"
+            >
               <FaFacebookF />
             </a>
-            <a href="#" className="hover:text-[#ff9000] transition">
+            <a
+              href="https://www.instagram.com/nextcreatix/#"
+              className="hover:text-[#ff9000] transition"
+            >
               <FaInstagram />
             </a>
             <a href="#" className="hover:text-[#ff9000] transition">
               <FaLinkedinIn />
             </a>
-            <a href="#" className="hover:text-[#ff9000] transition">
+            <a
+              href="https://www.youtube.com/@nextcreatix"
+              className="hover:text-[#ff9000] transition"
+            >
               <FaYoutube />
             </a>
-            <a href="#" className="hover:text-[#ff9000] transition">
+            <a
+              href="https://x.com/nextcreatix"
+              className="hover:text-[#ff9000] transition"
+            >
               <FaTwitter />
             </a>
           </div>

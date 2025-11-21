@@ -3,6 +3,7 @@
     "id": 1,
     "icon": "FaCode",
     "title": "Web Development",
+    "Description": "We build modern, responsive, and high-performance websites tailored to your business goals.Our team ensures clean coding, fast loading speed, and strong security. Whether it’s a corporate site, eCommerce, or custom platform—we deliver scalable solutions. We focus on user-friendly interfaces that offer a seamless browsing experience.",
     "desc": [
       "Frontend Development (HTML, CSS, JavaScript)",
       "Backend Development (Server, Database, API)",
@@ -13,131 +14,115 @@
       "Website Security",
       "CMS Customization",
       "Web Service/API Integration"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 15,
-        "details": {
-          "description": "1 Page Design using ReactJS, NextJS, HTML, CSS, JavaScript, Typescript, Tailwind CSS, Material UI",
-          "delivery_time": "2-day delivery",
-          "revisions": 1,
-          "features": [
-            "1 page",
-            "Design customization",
-            "Responsive design",
-            "Source code"
-          ]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 30,
-        "details": {
-          "description": "2 Pages Design using ReactJS, NextJS, HTML, CSS, JavaScript, Typescript, Tailwind CSS, Material UI",
-          "delivery_time": "3-day delivery",
-          "revisions": 2,
-          "features": [
-            "3 pages",
-            "Design customization",
-            "Content upload",
-            "Responsive design",
-            "Source code"
-          ]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 60,
-        "details": {
-          "description": "5 Pages Design using ReactJS, NextJS, HTML, CSS, JavaScript, Typescript, Tailwind CSS, Material UI",
-          "delivery_time": "5-day delivery",
-          "revisions": 3,
-          "features": [
-            "5 pages",
-            "Design customization",
-            "Content upload",
-            "Responsive design",
-            "Source code"
-          ]
-        },
-        "status": "active"
-      }
     ]
   },
   {
     "id": 2,
     "icon": "FaPenNib",
-    "title": "Graphic Design",
+    "title": "Graphics Design",
+    "Description": "Our creative design team turns ideas into visually stunning brand assets.From logos to social media graphics, we craft designs that make your brand stand out.We blend creativity with strategy to ensure every design speaks to your audience. Print, digital, or motion—we deliver polished visuals that elevate your identity.",
     "desc": [
+      "Book Cover Design",
+      "Book Formatting",
       "Logo Design",
       "Branding and Identity Design",
+      "Packaging & Label Design",
+      "Image Enhancement / Restoration / Color Correction",
+      "Background Removal",
+      "Mockups (Packaging / Brand Identity / Product)",
+      "Vector Tracing",
       "Poster and Flyer Design",
       "Social Media Graphics",
-      "Web Graphics",
-      "Print Design (Books, Magazines, etc.)",
-      "Infographic Design",
-      "Animation and Motion Graphics",
-      "Photo Editing and Retouching",
-      "Packaging Design"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 10,
-        "details": {
-          "description": "Logo or basic banner design",
-          "delivery_time": "2-day delivery",
-          "revisions": 1,
-          "features": ["1 design concept", "High-quality PNG/JPG", "1 revision"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 25,
-        "details": {
-          "description": "Full branding kit and social media design",
-          "delivery_time": "3-day delivery",
-          "revisions": 2,
-          "features": [
-            "3 design concepts",
-            "Source file (AI/PSD)",
-            "Social kit",
-            "Print-ready design"
-          ]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 50,
-        "details": {
-          "description": "Complete brand identity and packaging design",
-          "delivery_time": "5-day delivery",
-          "revisions": 3,
-          "features": [
-            "5 concepts",
-            "Editable source files",
-            "Unlimited revisions"
-          ]
-        },
-        "status": "active"
-      }
+      "Print Design (Books, Magazines, etc.)"
     ]
   },
   {
     "id": 3,
+    "icon": "FaChartLine",
+    "title": "Digital Marketing",
+    "Description": "Our digital marketing strategies help your brand grow faster and reach the right audience.We specialize in SEO, social media, content marketing, and paid advertising.Every campaign is data-driven, targeted, and optimized for maximum ROI.We help increase visibility, drive traffic, and convert visitors into loyal customers.",
+    "desc": [
+      "Search Engine Optimization (SEO)",
+      "Content Marketing",
+      "Social Media Marketing",
+      "Video Marketing",
+      "PPC Advertising",
+      "Email Marketing",
+      "Guest Posting",
+      "Affiliate Marketing",
+      "Analytics & Reporting"
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "GiNotebook",
+    "title": "Writing & Translate",
+    "Description": "We provide clear, compelling, and professional writing for any industry. From blogs to business documents, we craft content that connects with readers. Our translation services ensure accuracy, cultural relevance, and natural flow. We help you communicate globally with confidence and clarity.",
+    "desc": [
+      "Book Writing & Formatting",
+      "Content & Blog Writing",
+      "Case Studies",
+      "Scriptwriting",
+      "Podcast Writing",
+      "Speechwriting",
+      "LinkedIn Profiles",
+      "CV Writing",
+      "Grammar and Spelling Checks",
+      "Creative Writing (Stories, Campaign Copy)",
+      "Technical Writing (Manuals, Documentation)",
+      "Academic Writing",
+      "Business Writing (Emails, Reports)",
+      "Document Translation",
+      "Subtitle and Dubbing Translation"
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "SiOpenai",
+    "title": "AI Services",
+    "Description": "We offer smart AI-powered solutions to automate processes and improve decision-making. From NLP and chatbots to predictive analytics—we build intelligent systems tailored to your needs. Our AI tools help businesses save time, reduce costs, and enhance customer experience.We combine innovation with practical functionality for real-world impact.",
+    "desc": [
+      "AI Image Editing",
+      "AI Video Editing",
+      "AI Artists",
+      "Stable Diffusion Artists",
+      "AI Video & Animation",
+      "AI Spokesperson Videos",
+      "AI Content Generation",
+      "Mixing & Mastering",
+      "Audio Editing",
+      "Voice Synthesis & AI",
+      "Text to Speech",
+      "AI-Generated Voiceovers",
+      "AI Music & Audio Generation",
+      "OpenAI GPT Store"
+    ]
+  },
+
+  {
+    "id": 6,
+    "icon": "FaPhotoVideo",
+    "title": "Video & Animation",
+    "Description": "Video & AnimationWe produce high-quality videos and animations that bring your brand stories to life.Our team handles scripting, shooting, editing, and motion graphics.Every project is crafted to engage viewers and deliver your message clearly.Perfect for marketing, branding, tutorials, or promotional campaigns.",
+    "desc": [
+      "Video Shooting and Editing",
+      "Video Editing",
+      "Raw footage editing",
+      "Long to Short Video",
+      "Slideshow Videos",
+      "Color correction and grading",
+      "Subtitles & Captions",
+      "Music videos",
+      "Social Media Video Content",
+      "Video Rendering and Formatting"
+    ]
+  },
+
+  {
+    "id": 7,
     "icon": "FaMobileAlt",
     "title": "Software - App",
+    "Description": "Software – App We develop custom mobile and web applications designed for performance and usability. Our solutions are built with modern technologies to ensure speed and reliability. From UI/UX to development and testing—everything is handled end-to-end. We create scalable apps that streamline operations and enhance user satisfaction.",
     "desc": [
       "Requirement Gathering",
       "Design (UI/UX, System Architecture)",
@@ -147,281 +132,6 @@
       "Maintenance and Updates",
       "Documentation",
       "Security"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 30,
-        "details": {
-          "description": "Simple prototype or small app UI",
-          "delivery_time": "3-day delivery",
-          "revisions": 1,
-          "features": ["UI prototype", "1 platform", "Source file"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 70,
-        "details": {
-          "description": "Functional mobile or web app with backend",
-          "delivery_time": "5-day delivery",
-          "revisions": 2,
-          "features": [
-            "Frontend + backend",
-            "Database setup",
-            "Responsive design",
-            "Documentation"
-          ]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 120,
-        "details": {
-          "description": "Full-featured cross-platform app with admin panel",
-          "delivery_time": "7-day delivery",
-          "revisions": 3,
-          "features": [
-            "Cross-platform",
-            "Authentication",
-            "API integration",
-            "Dashboard",
-            "Support"
-          ]
-        },
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "icon": "GiNotebook",
-    "title": "Writing & Translate",
-    "desc": [
-      "Content Writing (Blogs, Articles)",
-      "Creative Writing (Stories, Campaign Copy)",
-      "Technical Writing (Manuals, Documentation)",
-      "Academic Writing",
-      "Business Writing (Emails, Reports)",
-      "Document Translation",
-      "Website and Software Translation",
-      "Subtitle and Dubbing Translation",
-      "Legal and Business Translation"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 15,
-        "details": {
-          "description": "Up to 500 words writing or translation",
-          "delivery_time": "1-day delivery",
-          "revisions": 1,
-          "features": ["500 words", "Proofreading", "1 revision"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 30,
-        "details": {
-          "description": "Up to 1000 words writing or translation",
-          "delivery_time": "2-day delivery",
-          "revisions": 2,
-          "features": ["1000 words", "SEO optimized", "2 revisions"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 60,
-        "details": {
-          "description": "Up to 3000 words with research and editing",
-          "delivery_time": "4-day delivery",
-          "revisions": 3,
-          "features": ["3000 words", "Research included", "Unlimited revisions"]
-        },
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "icon": "FaPhotoVideo",
-    "title": "Video & Animation",
-    "desc": [
-      "Video Shooting and Editing",
-      "Motion Graphics",
-      "2D Animation",
-      "3D Animation",
-      "Video Production Planning",
-      "Video Rendering and Formatting"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 25,
-        "details": {
-          "description": "Simple intro or logo animation (10s)",
-          "delivery_time": "2-day delivery",
-          "revisions": 1,
-          "features": ["10s animation", "MP4 format", "1 revision"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 50,
-        "details": {
-          "description": "30s motion graphics animation",
-          "delivery_time": "4-day delivery",
-          "revisions": 2,
-          "features": ["30s animation", "Background music", "Logo intro/outro"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 100,
-        "details": {
-          "description": "1-minute professional animation with voice-over",
-          "delivery_time": "6-day delivery",
-          "revisions": 3,
-          "features": [
-            "1 min video",
-            "Voice-over",
-            "HD quality",
-            "Script writing"
-          ]
-        },
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "icon": "SiOpenai",
-    "title": "AI Services",
-    "desc": [
-      "Natural Language Processing (NLP)",
-      "Computer Vision",
-      "Predictive Analytics",
-      "Recommendation Systems",
-      "Automation & Robotics",
-      "Chatbots and Virtual Assistants",
-      "Data Analysis and Insights",
-      "AI in Healthcare"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 40,
-        "details": {
-          "description": "Basic chatbot or AI model setup",
-          "delivery_time": "3-day delivery",
-          "revisions": 1,
-          "features": ["Simple chatbot", "1 integration", "Basic dataset"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 80,
-        "details": {
-          "description": "Custom AI model setup (NLP or Vision)",
-          "delivery_time": "5-day delivery",
-          "revisions": 2,
-          "features": ["Custom model", "API integration", "Documentation"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 150,
-        "details": {
-          "description": "Advanced AI solution with dashboard & deployment",
-          "delivery_time": "7-day delivery",
-          "revisions": 3,
-          "features": [
-            "Custom dataset",
-            "Dashboard",
-            "Deployment",
-            "Support & Maintenance"
-          ]
-        },
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "icon": "FaChartLine",
-    "title": "Digital Marketing",
-    "desc": [
-      "Search Engine Optimization (SEO)",
-      "Content Marketing",
-      "Social Media Marketing",
-      "Pay-Per-Click (PPC) Advertising",
-      "Email Marketing",
-      "Affiliate Marketing",
-      "Influencer Marketing",
-      "Analytics and Reporting"
-    ],
-    "packages": [
-      {
-        "package_name": "Basic Package",
-        "category": "Basic",
-        "price": 20,
-        "details": {
-          "description": "Social media post & keyword setup",
-          "delivery_time": "2-day delivery",
-          "revisions": 1,
-          "features": ["1 platform", "5 posts", "Basic SEO setup"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Standard Package",
-        "category": "Standard",
-        "price": 50,
-        "details": {
-          "description": "2 platforms with campaign setup",
-          "delivery_time": "4-day delivery",
-          "revisions": 2,
-          "features": ["2 platforms", "Ad setup", "Weekly report"]
-        },
-        "status": "active"
-      },
-      {
-        "package_name": "Premium Package",
-        "category": "Premium",
-        "price": 100,
-        "details": {
-          "description": "Complete brand marketing strategy",
-          "delivery_time": "7-day delivery",
-          "revisions": 3,
-          "features": [
-            "All platforms",
-            "Content strategy",
-            "Paid ads",
-            "Analytics report"
-          ]
-        },
-        "status": "active"
-      }
     ]
   }
 ]

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardItemhero from "./CardItemhero";
-import damoimg from "../assets/image/damoicon.png";
+// import damoimg from "../assets/image/damoicon.png";
 import {
   FaCode,
   FaPaintBrush,
@@ -29,21 +29,14 @@ const ExpertiseSection = () => {
   // ------------------------------------
 
   return (
-    // <div>
-    //   <h2 className="uppercase m-8 font-bold text-2xl text-black">
-    //     our service
-    //   </h2>
-    //   <div className=" mx-6 flex flex-row lg:justify-between ">
-    //     {service.map((item) => (
-    //       <CardItemhero key={item.id} service={item} />
-    //     ))}
-    //   </div>
-    // </div>
-    // -----------------------------------------
-    <div className="px-4 py-8">
-      <h2 className=" text-4xl font-bold text-center mb-8  text-black">
+    <div className="px-4 py-20 mt-32 ">
+      <h2 className=" text-4xl font-bold text-center mb-5  text-black">
         Our Service
       </h2>
+      <p className="max-w-3xl mx-auto text-gray-600 text-center mb-8">
+        “We provide reliable and creative digital services tailored to your
+        needs, helping your business grow with confidence and clarity.”
+      </p>
 
       <div
         className="

@@ -6,10 +6,12 @@ import Maine from "../Layout/Maine";
 import AboutUs from "../page/AboutUs";
 import Services from "../page/Services";
 import Portfolio from "../page/Portfolio";
-import Price from "../page/Price";
 import Testimonials from "../page/Testimonials";
 import Bloge from "../page/Bloge";
 import { ContactUs } from "../page/ContactUs";
+import { BlogeDetails } from "../component/BlogeDetails";
+import { ServicesDetails } from "../component/ServicesDetails";
+import { ReadMor } from "../component/ReadMor";
 
 export let router = createBrowserRouter([
   {
@@ -30,24 +32,32 @@ export let router = createBrowserRouter([
         element: <Services></Services>,
       },
       {
-        path: "/portfolio",
-        element: <Portfolio></Portfolio>,
+        path: "/services/:id",
+        element: <ServicesDetails></ServicesDetails>,
       },
       {
-        path: "/price",
-        element: <Price></Price>,
+        path: "/portfolio",
+        element: <Portfolio></Portfolio>,
       },
       {
         path: "/tastimonials",
         element: <Testimonials></Testimonials>,
       },
       {
-        path: "/Bloge",
+        path: "/bloge",
         element: <Bloge></Bloge>,
+      },
+      {
+        path: "/bloge/:id",
+        element: <BlogeDetails></BlogeDetails>,
       },
       {
         path: "/contactus",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/readmor",
+        element: <ReadMor></ReadMor>,
       },
     ],
   },

@@ -14,24 +14,27 @@ const getIcon = (iconName) => {
 };
 
 const Scerbicecard = ({ service }) => {
-  const { icon, title, desc } = service;
+  const { icon, title, Description, id } = service;
   const Icon = getIcon(icon);
   //   console.log(service.icon);
   return (
     <div>
-      {/* <Link to={`/servicedetals/${id}`}> */}
-      <section>
-        <div className="bg-[#ffe5cc] text-black flex flex-col sm:flex-row items-start sm:items-center gap-4 p-5 rounded-xl shadow hover:shadow-md transition min-h-[150px] mx-4 my-4 break-words">
-          <div className="text-3xl text-[#ff9000] flex-shrink-0">
-            {Icon && <Icon />}
+      <Link to={`/services/${id}`}>
+        <section>
+          <div className="bg-[#ffe5cc] text-black flex flex-col sm:flex-row items-start sm:items-center gap-4 p-5 rounded-xl shadow hover:shadow-md transition min-h-[150px] mx-4 my-4 break-words text-justify">
+            <div className="text-3xl text-[#ff9000] flex-shrink-0 ">
+              {Icon && <Icon />}
+            </div>
+            <div className="flex-1">
+              <h3 className="text-lg font-semibold text-[#ff9000]">{title}</h3>
+              <p className="text-gray-600 text-sm mt-1">
+                {Description}..
+                <strong> see more</strong>{" "}
+              </p>
+            </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-lg font-semibold text-[#ff9000]">{title}</h3>
-            <p className="text-gray-600 text-sm mt-1">{desc}</p>
-          </div>
-        </div>
-      </section>
-      {/* </Link> */}
+        </section>
+      </Link>
     </div>
 
     // -------------------------------

@@ -1,9 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
-import damoimg from "../assets/image/damoicon.png";
+// import { motion } from "framer-motion";
+// import damoimg from "../assets/image/damoicon.png";
 import * as FaIcons from "react-icons/fa";
 import * as GiIcons from "react-icons/gi";
 import * as SiIcons from "react-icons/si";
+import { Link } from "react-router";
 
 const getIcon = (iconName) => {
   if (FaIcons[iconName]) return FaIcons[iconName];
@@ -19,14 +20,16 @@ const CardItemhero = ({ service }) => {
   const Icon = getIcon(icon);
 
   return (
-    <div className="m-3 w-[300px] rounded-2xl">
-      <div className="bg-[#ffe5cc] mx-auto text-center rounded-2xl">
-        <div className="text-3xl w-full flex justify-center text-[#ff9000] pt-4">
-          {Icon && <Icon />}
+    <div className="m-3 w-[300px] rounded-2xl shadow-md hover:shadow-xl transition">
+      <Link to={`/services/${id}`}>
+        <div className="bg-[#ffe5cc] mx-auto text-center rounded-2xl">
+          <div className="text-3xl w-full flex justify-center text-[#ff9000] pt-4">
+            {Icon && <Icon />}
+          </div>
+          <p className="my-6">{title}</p>
+          <div className="w-12 h-1 bg-[#ff9000] mx-auto" />
         </div>
-        <p className="my-6">{title}</p>
-        <div className="w-12 h-1 bg-[#ff9000] mx-auto" />
-      </div>
+      </Link>
     </div>
     // ---------------------------
   );

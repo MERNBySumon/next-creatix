@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import navlogo from "../assets/image/favicon.png";
+// import navlogo from "../assets/image/favicon.png";
+import navlogo from "../assets/image/nablogo.png";
 const Nabbar = () => {
   const listItem = (
     <>
@@ -31,7 +32,7 @@ const Nabbar = () => {
       </li>
       <li>
         <NavLink
-          to="/Services"
+          to="/services"
           className={({ isActive }) =>
             isActive
               ? "text-[#ff9000] font-semibold uppercase"
@@ -43,7 +44,7 @@ const Nabbar = () => {
       </li>
       <li>
         <NavLink
-          to="/Portfolio"
+          to="/portfolio"
           className={({ isActive }) =>
             isActive
               ? "text-[#ff9000] font-semibold uppercase"
@@ -51,18 +52,6 @@ const Nabbar = () => {
           }
         >
           Portfolio
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/price"
-          className={({ isActive }) =>
-            isActive
-              ? "text-[#ff9000] font-semibold uppercase"
-              : " font-semibold uppercase"
-          }
-        >
-          Price
         </NavLink>
       </li>
       <li>
@@ -92,8 +81,8 @@ const Nabbar = () => {
     </>
   );
   return (
-    <div className="bg-[#ffe5cc]">
-      <div className="navbar shadow-sm">
+    <div className="bg-[#ffe5cc] px-5">
+      <div className="navbar  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -121,7 +110,7 @@ const Nabbar = () => {
             </ul>
           </div>
           <Link>
-            <img className="w-[30px]" src={navlogo} alt="Next Creatix Logo" />
+            <img className="w-[200px]" src={navlogo} alt="Next Creatix Logo" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -129,7 +118,7 @@ const Nabbar = () => {
         </div>
         <div className="navbar-end shadow-none">
           <Link to={"/contactus"}>
-            <p className="btn bg-[#ff9000] text-amber-50 border-none shadow-none">
+            <p className="btn bg-[#ff9000] text-amber-50 border-none shadow-none hover:text-black">
               Contact Us
             </p>
           </Link>

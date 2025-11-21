@@ -18,7 +18,7 @@ const Services = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Our <span className="text-[#ff9000]">Services</span>
             </h2>
-            <p className=" mb-6 max-w-md mx-auto lg:mx-0">
+            <p className="  mb-6 max-w-md mx-auto lg:mx-0 leading-relaxed text-justify">
               We combine creativity and technology to turn your ideas into
               reality. From Graphic Design to Web Development and Software-App
               solutions—we cover it all. Through Digital Marketing, Video &
